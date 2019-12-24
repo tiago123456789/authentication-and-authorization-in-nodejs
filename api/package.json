@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "authorization and authentication in api using node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start ./src/index.js",
+    "start:dev": "node_modules/.bin/nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tiago rosa da costa <tiagorosadacost@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
